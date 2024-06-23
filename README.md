@@ -1,4 +1,4 @@
-# Final Project - Paper Retrieval System
+# Paper Retrieval System
 
 ## What is a Paper Retrieval System
 
