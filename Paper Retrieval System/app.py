@@ -11,11 +11,12 @@ import ast
 
 from flask import Flask, request, render_template
 
-
+"""
 def to_markdown(text):
   text = text.replace('•', '  *')
   markdown_text = textwrap.indent(text, '> ', predicate=lambda _: True)
   return Markdown(markdown_text)
+"""
 
 genai.configure(api_key='Your api key')
 
