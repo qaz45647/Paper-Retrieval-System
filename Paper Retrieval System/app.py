@@ -43,7 +43,7 @@ def search():
 
         prompt = "[context]" + query + "[/context]"
         response = model.generate_content(prompt+rule)
-        markdown_obj = to_markdown(response.text).data
+        #markdown_obj = to_markdown(response.text).data
         print(response.text)
 
         df = pd.read_csv('paperswithcode.csv')
